@@ -1,4 +1,4 @@
-# react-ssr-demo
+# react-ssr-tutorial
 a demo for server side render
 
 ## how to use
