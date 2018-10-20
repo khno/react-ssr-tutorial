@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "babel-node ./server/server.js --presets es2015,stage-0,react",
-    "compile": "webpack --config webpack.config.js --progress --display-modules --display-reasons  --colors",
-    "build": "webpack --config webpack.prod.config.js --progress --display-modules --display-reasons  --colors",
+    "server": "babel-node ./server/server.js",
+    "compile": "webpack --config webpack.config.js",
+    "build": "webpack --config webpack.prod.config.js --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
